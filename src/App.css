@@ -4,8 +4,16 @@
 
 .app {
   background-color: #fafafa;
-  
+}
 
+.app__postsRight{
+  margin-left: 20px;
+}
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .app__header {
@@ -13,9 +21,26 @@
   padding: 20px;
   object-fit: contain;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
  
 }
+.app__headerImage{
+  object-fit:contain ;
+}
+
 .app__signup{
   display: flex;
   flex-direction: column;
+}
+
+.post__input{
+  flex: 1;
+  border:none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post__button{
+  flex:0;
 }
